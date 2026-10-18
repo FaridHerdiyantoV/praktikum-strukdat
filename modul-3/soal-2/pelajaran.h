@@ -2,14 +2,13 @@
 #define PELAJARAN_H_INCLUDED
 
 #include <string>
-using namespace std;
 
 struct pelajaran{
-    string namaMapel;
-    string kodeMapel;
+    std::string namaMapel;
+    std::string kodeMapel;
 };
 
-pelajaran create_pelajaran(string nama, string kodepel);
+pelajaran create_pelajaran(std::string nama, std::string kodepel);
 void tampil_pelajaran(pelajaran pel);
 
 #endif

@@ -1,11 +1,9 @@
-#include <iostream>
+#include <string>
 #include "pelajaran.h"
 
-using namespace std;
-
 int main (){
-    string namapel = "Struktur Data";
-    string kodepel = "SDT";
+    std::string namapel = "Struktur Data";
+    std::string kodepel = "SDT";
 
     pelajaran pel = create_pelajaran(namapel, kodepel);
 

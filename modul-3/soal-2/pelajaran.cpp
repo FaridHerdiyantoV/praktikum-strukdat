@@ -1,10 +1,7 @@
 #include <iostream>
 #include "pelajaran.h"
 
-using namespace std;
-
-
-pelajaran create_pelajaran(string namapel, string kodepel){
+pelajaran create_pelajaran(std::string namapel, std::string kodepel){
     pelajaran pel;
     pel.namaMapel = namapel;
     pel.kodeMapel = kodepel;
